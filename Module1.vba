@@ -150,9 +150,9 @@ Sub コメント補完と画像挿入()
 
 End Sub
 
-Sub 概要ページに転記して集計()
+Sub 一覧表に転記して数を集計()
 
-    Call Module5.fillNoAtAllSheet
+    Call Module5.fillNumAtAllSheet
     Call Module6.postResults
     Call Module7.countFacilitiesOfAllYuuguAndShisetsu
 
